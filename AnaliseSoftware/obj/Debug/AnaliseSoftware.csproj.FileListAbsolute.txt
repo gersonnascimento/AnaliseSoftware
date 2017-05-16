@@ -1,0 +1,16 @@
+c:\users\gerso\onedrive\documentos\visual studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\bin\Debug\AnaliseSoftware.exe.config
+c:\users\gerso\onedrive\documentos\visual studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\bin\Debug\AnaliseSoftware.exe
+c:\users\gerso\onedrive\documentos\visual studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\bin\Debug\AnaliseSoftware.pdb
+c:\users\gerso\onedrive\documentos\visual studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.csprojResolveAssemblyReference.cache
+c:\users\gerso\onedrive\documentos\visual studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.Form1.resources
+c:\users\gerso\onedrive\documentos\visual studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.FrmAvaliacao.resources
+c:\users\gerso\onedrive\documentos\visual studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.Properties.Resources.resources
+c:\users\gerso\onedrive\documentos\visual studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.csproj.GenerateResource.Cache
+c:\users\gerso\onedrive\documentos\visual studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.exe
+c:\users\gerso\onedrive\documentos\visual studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.pdb
+C:\Users\gerso\OneDrive\Documentos\Visual Studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.Dashboard.resources
+C:\Users\gerso\OneDrive\Documentos\Visual Studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.FrmCadastro.resources
+C:\Users\gerso\OneDrive\Documentos\Visual Studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.Ranking.resources
+C:\Users\gerso\OneDrive\Documentos\Visual Studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.FrmCadastroSoftware.resources
+C:\Users\gerso\OneDrive\Documentos\Visual Studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.FrmResultado.resources
+C:\Users\gerso\OneDrive\Documentos\Visual Studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\bin\Debug\MySql.Data.dll
