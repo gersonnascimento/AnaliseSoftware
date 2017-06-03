@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmResultado));
             this.lblNota = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,11 +44,11 @@
             // lblNota
             // 
             this.lblNota.AutoSize = true;
-            this.lblNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNota.Font = new System.Drawing.Font("Lucida Console", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNota.ForeColor = System.Drawing.Color.Blue;
             this.lblNota.Location = new System.Drawing.Point(216, 237);
             this.lblNota.Name = "lblNota";
-            this.lblNota.Size = new System.Drawing.Size(90, 39);
+            this.lblNota.Size = new System.Drawing.Size(95, 32);
             this.lblNota.TabIndex = 0;
             this.lblNota.Text = "Nota";
             this.lblNota.Click += new System.EventHandler(this.label1_Click);
@@ -55,88 +56,89 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Font = new System.Drawing.Font("Lucida Console", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.Color.Blue;
-            this.lblResultado.Location = new System.Drawing.Point(210, 288);
+            this.lblResultado.Location = new System.Drawing.Point(242, 288);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(183, 39);
+            this.lblResultado.Size = new System.Drawing.Size(215, 32);
             this.lblResultado.TabIndex = 1;
             this.lblResultado.Text = "Resultado:";
+            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Lucida Console", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(27, 183);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 39);
+            this.label2.Size = new System.Drawing.Size(115, 32);
             this.label2.TabIndex = 2;
             this.label2.Text = "Tipo:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Lucida Console", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(27, 137);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(164, 39);
+            this.label3.Size = new System.Drawing.Size(195, 32);
             this.label3.TabIndex = 3;
             this.label3.Text = "Software:";
             // 
             // lblSoftware
             // 
             this.lblSoftware.AutoSize = true;
-            this.lblSoftware.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoftware.Font = new System.Drawing.Font("Lucida Console", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSoftware.ForeColor = System.Drawing.Color.Blue;
             this.lblSoftware.Location = new System.Drawing.Point(216, 137);
             this.lblSoftware.Name = "lblSoftware";
-            this.lblSoftware.Size = new System.Drawing.Size(189, 39);
+            this.lblSoftware.Size = new System.Drawing.Size(235, 32);
             this.lblSoftware.TabIndex = 4;
             this.lblSoftware.Text = "lblSoftware";
             // 
             // lblTipo
             // 
             this.lblTipo.AutoSize = true;
-            this.lblTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTipo.Font = new System.Drawing.Font("Lucida Console", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTipo.ForeColor = System.Drawing.Color.Blue;
             this.lblTipo.Location = new System.Drawing.Point(216, 183);
             this.lblTipo.Name = "lblTipo";
-            this.lblTipo.Size = new System.Drawing.Size(119, 39);
+            this.lblTipo.Size = new System.Drawing.Size(155, 32);
             this.lblTipo.TabIndex = 5;
             this.lblTipo.Text = "lblTipo";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Lucida Console", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Location = new System.Drawing.Point(27, 237);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 39);
+            this.label4.Size = new System.Drawing.Size(115, 32);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Nota";
+            this.label4.Text = "Nota:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Lucida Console", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(21, 288);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(183, 39);
+            this.label5.Size = new System.Drawing.Size(215, 32);
             this.label5.TabIndex = 7;
             this.label5.Text = "Resultado:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(65, 9);
+            this.label1.Font = new System.Drawing.Font("Lucida Console", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(156, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(340, 73);
+            this.label1.Size = new System.Drawing.Size(215, 32);
             this.label1.TabIndex = 8;
             this.label1.Text = "Resultado:";
             // 
@@ -155,7 +157,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(449, 437);
+            this.ClientSize = new System.Drawing.Size(566, 437);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
@@ -166,9 +168,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.lblNota);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmResultado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmResultado";
+            this.Text = "Resultado - SA Enloogs";
             this.Load += new System.EventHandler(this.FrmResultado_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

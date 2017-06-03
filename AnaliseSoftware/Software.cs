@@ -109,15 +109,38 @@ namespace AnaliseSoftware
             return retorno;
         }
 
+        public string pegaNome(int id)
+        {
+            MySqlConnection conn = new MySqlConnection("server=localhost;uid=root;pwd='';database=dbanalise");
+            String sql = "select * from softwares where id=" + id;
+            //MessageBox.Show(sql);
+
+            MySqlCommand cnn = new MySqlCommand(sql, conn);
+
+            conn.Open();
+
+            MySqlDataReader dr = cnn.ExecuteReader();
+            // if (dr.Read())
+            //   MessageBox.Show(dr["nome"].ToString());
+            dr.Read();
+            string retorno = dr["nome"].ToString();
+            cnn.Dispose();
+            conn.Close();
+            
+            return retorno;
+            
+        }
+
         //O próximo passo é criar um método para buscar as notas de todas as avaliações do software e
         //calcular a média
+        //Feito!
         public double pegaMedia(int cod)
         {
             double media = 0;
             int soma = 0;
             MySqlConnection conn = new MySqlConnection("server=localhost;uid=root;pwd='';database=dbanalise");
             String sql = "select * from testeav where idsoftware="+cod;
-            MessageBox.Show(sql);
+         
 
             MySqlCommand cnn = new MySqlCommand(sql, conn);
 
@@ -129,11 +152,13 @@ namespace AnaliseSoftware
                 soma++;
                 media += Convert.ToDouble(dr["nota"]);
             }
-            media /= soma;
+
+            if (soma != 0)
+                media /= soma;
+            else media = 0;
             
             cnn.Dispose();
             conn.Close();
-            MessageBox.Show("Media = " + Convert.ToDouble(media));//só para ver o calculo
             return media;
             
         }

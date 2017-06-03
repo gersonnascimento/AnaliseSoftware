@@ -50,9 +50,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adm.Designer.cs">
+      <DependentUpon>Adm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Avaliacao.cs" />
     <Compile Include="Avaliador.cs" />
     <Compile Include="Banco.cs" />
+    <Compile Include="CadSoft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadSoft.Designer.cs">
+      <DependentUpon>CadSoft.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +111,12 @@
     </Compile>
     <Compile Include="Software.cs" />
     <Compile Include="Usuario.cs" />
+    <EmbeddedResource Include="Adm.resx">
+      <DependentUpon>Adm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadSoft.resx">
+      <DependentUpon>CadSoft.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>

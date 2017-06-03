@@ -99,12 +99,12 @@ namespace AnaliseSoftware
             Software software = new Software(0, null, 0);
             idSoft = software.pegaSoftware(nome).getCodSoftware();
 
-            MessageBox.Show(" para corrigir segunda avaliação Usuario: " + usu);
+            
             MySqlConnection conn = new MySqlConnection("server=localhost;uid=root;pwd='';database=dbanalise");
             string data;
             data = DateTime.Now.ToShortDateString();
             String sql = "insert into testeav (idUsuario, idSoftware, nota, data) values (" + this.usu + "," + idSoft + ",'"+Convert.ToDouble(lblNota.Text)+"','"+ data+ "')";
-            MessageBox.Show(sql);
+           
             MySqlCommand cnn = new MySqlCommand(sql, conn);
 
             conn.Open();
@@ -114,14 +114,14 @@ namespace AnaliseSoftware
                 cnn.ExecuteNonQuery();
                 cnn.Dispose();
                 conn.Close();
-                MessageBox.Show(data);
+               
                 return true;
 
             }
             catch (Exception)
             {
                 MessageBox.Show("Erro do Sistema.");
-                MessageBox.Show(sql);
+                
                 throw;
             }
             return false;
@@ -157,6 +157,11 @@ namespace AnaliseSoftware
             Dashboard dash = new Dashboard();
             dash.usu = this.usu;
             dash.Visible = true;
+        }
+
+        private void lblResultado_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

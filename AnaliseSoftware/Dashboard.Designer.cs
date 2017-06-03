@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.btnAvaliar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -91,7 +92,7 @@
             this.btnRanking.Name = "btnRanking";
             this.btnRanking.Size = new System.Drawing.Size(186, 30);
             this.btnRanking.TabIndex = 10;
-            this.btnRanking.Text = "Ranking";
+            this.btnRanking.Text = "Informações";
             this.btnRanking.UseVisualStyleBackColor = false;
             this.btnRanking.Click += new System.EventHandler(this.btnRanking_Click);
             // 
@@ -136,9 +137,10 @@
             this.ClientSize = new System.Drawing.Size(705, 387);
             this.Controls.Add(this.painel);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Dashboard";
+            this.Text = "SA Enloogs";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.painel)).EndInit();

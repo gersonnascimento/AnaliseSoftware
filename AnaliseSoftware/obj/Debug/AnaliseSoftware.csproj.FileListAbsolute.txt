@@ -14,3 +14,5 @@ C:\Users\gerso\OneDrive\Documentos\Visual Studio 2015\Projects\AnaliseSoftware\A
 C:\Users\gerso\OneDrive\Documentos\Visual Studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.FrmCadastroSoftware.resources
 C:\Users\gerso\OneDrive\Documentos\Visual Studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.FrmResultado.resources
 C:\Users\gerso\OneDrive\Documentos\Visual Studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\bin\Debug\MySql.Data.dll
+C:\Users\gerso\OneDrive\Documentos\Visual Studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.Adm.resources
+C:\Users\gerso\OneDrive\Documentos\Visual Studio 2015\Projects\AnaliseSoftware\AnaliseSoftware\obj\Debug\AnaliseSoftware.CadSoft.resources

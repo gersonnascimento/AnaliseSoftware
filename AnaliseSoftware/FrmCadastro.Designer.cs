@@ -58,6 +58,7 @@
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Nome:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtNome
             // 
@@ -65,6 +66,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(100, 20);
             this.txtNome.TabIndex = 2;
+            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // label2
             // 
@@ -74,6 +76,7 @@
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Senha:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtSenha
             // 
@@ -81,6 +84,7 @@
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(100, 20);
             this.txtSenha.TabIndex = 4;
+            this.txtSenha.TextChanged += new System.EventHandler(this.txtSenha_TextChanged);
             // 
             // txtEmpresa
             // 
@@ -88,6 +92,7 @@
             this.txtEmpresa.Name = "txtEmpresa";
             this.txtEmpresa.Size = new System.Drawing.Size(100, 20);
             this.txtEmpresa.TabIndex = 5;
+            this.txtEmpresa.TextChanged += new System.EventHandler(this.txtEmpresa_TextChanged);
             // 
             // label3
             // 
@@ -97,6 +102,7 @@
             this.label3.Size = new System.Drawing.Size(51, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Empresa:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtLogin
             // 
@@ -104,6 +110,7 @@
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(100, 20);
             this.txtLogin.TabIndex = 8;
+            this.txtLogin.TextChanged += new System.EventHandler(this.txtLogin_TextChanged);
             // 
             // label4
             // 
@@ -113,6 +120,7 @@
             this.label4.Size = new System.Drawing.Size(36, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "Login:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // btnCancelar
             // 
@@ -122,6 +130,7 @@
             this.btnCancelar.TabIndex = 9;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // FrmCadastro
             // 

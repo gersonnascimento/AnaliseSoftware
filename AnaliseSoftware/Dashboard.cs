@@ -45,7 +45,7 @@ namespace AnaliseSoftware
 
         private void btnMeusDados_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Versão Alpha não permite alteração ou consulta dos dados.");
         }
 
         private void btnAvaliar_MouseUp(object sender, MouseEventArgs e)
@@ -60,14 +60,13 @@ namespace AnaliseSoftware
 
         private void btnSair_Click(object sender, EventArgs e)
         {
-
-            Hide();     
+            Hide();
+            this.Close();
         }
 
         private void btnRanking_Click(object sender, EventArgs e)
         {
-            Ranking ranking = new Ranking();
-            ranking.Show();
+            MessageBox.Show("O usuário 'admin' pode adicionar novos usuários, adicionar novos softwares e também consultar o ranking dos softwares melhor avaliados\nenquanto os outros usuários podem apenas selecionar os softwares já cadastrados e avaliá-los.\nAs notas das avaliações são calculadas de acordo com a média ponderada, considerando cada questão com o seu determinado peso de acordo com o tipo de software.");
         }
     }
 }

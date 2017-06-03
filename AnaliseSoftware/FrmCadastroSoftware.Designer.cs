@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCadastroSoftware));
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbSoftware = new System.Windows.Forms.ComboBox();
@@ -70,9 +71,10 @@
             this.Controls.Add(this.cmbSoftware);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmCadastroSoftware";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmCadastroSoftware";
+            this.Text = "Avalie - SA Enloogs";
             this.Load += new System.EventHandler(this.FrmCadastroSoftware_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

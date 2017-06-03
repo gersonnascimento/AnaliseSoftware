@@ -35,10 +35,19 @@ namespace AnaliseSoftware
 
                 if (dr.Read())
                 {
-                Dashboard dashboard = new Dashboard();
-                dashboard.usu = Convert.ToInt16(dr["id"].ToString());
-                dashboard.Visible = true;
-                this.Hide();
+                if (txtUsuario.Text == "admin")
+                {
+                    Adm adm = new Adm();
+                    this.Hide();
+                    adm.Visible = true;
+                }
+                else
+                {
+                    Dashboard dashboard = new Dashboard();
+                    dashboard.usu = Convert.ToInt16(dr["id"].ToString());
+                    dashboard.Visible = true;
+                    this.Hide();
+                }
             }
                 else
                     MessageBox.Show("Usuário ou senha inválidos!");
@@ -77,6 +86,7 @@ namespace AnaliseSoftware
         private void btnSair_Click(object sender, EventArgs e)
         {
             Hide();
+            this.Close();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
